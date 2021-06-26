@@ -95,7 +95,58 @@ border-radius: 100%;
 #pricing {
   padding: 100px;
   text-align: center;
+  color: black;
 }
 .pricing-column {
   padding: 3% 2%;
 }
+.title-card{
+  color: black;
+}
+@media (max-width: 1024px) {
+ #title {
+   text-align: center;
+
+  }
+
+
+   .title-image{
+     position: static;
+     transform: rotate(0);
+
+   }
+}
+
+/*--call action--*/
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 100px;
+}
+h3 {
+  font-family: 'Montserrat', 'sans-serif';
+  font-weight: bold;
+  padding-bottom: 50px ;
+  color: #fff;
+}
+
+.cta-btn {
+  margin-block: 2px;
+}
+
+/*-footer-*/
+
+#footer {
+   text-align: center;
+   background-color: #fff;
+   color: gray;
+   padding: 50px;
+}
+.icon-f {
+  color: black;
+  padding: 2%;
+}
+.icon-f:hover {
+  color: #ef8172;
+} 
